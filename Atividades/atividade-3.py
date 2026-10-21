@@ -13,6 +13,6 @@ for i in range(1, 11):
     if numero > 10:
         quantidade_maiores_10 += 1
 
-print('\n -- RESULTADOS --')
+print('\n -- Resultados --')
 print(f'Soma de todos os elementos: {soma_total}')
 print(f'Quantidade de números maiores que 10: {quantidade_maiores_10}')

@@ -21,7 +21,7 @@ for i in range(1, 6):
 maior = max(idades)
 menor = min(idades)
 
-print("\n=== RESULTADOS ===")
+print("\n-- Resultados --")
 print(f"Maior idade: {maior} anos")
 print(f"Menor idade: {menor} anos")
 print(f"Quantidade de maiores de idade: {quantidade_maiores}")

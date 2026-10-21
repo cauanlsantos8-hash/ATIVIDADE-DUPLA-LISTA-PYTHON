@@ -11,7 +11,7 @@ for i in range(1, 11):
     if numero > 0:
         positivos.append(numero)
         
-print('\n-- VETOR DE NÚMEROS POSITIVOS --')
+print('\n-- Vetor de Números Positivos --')
 if positivos:
     print(positivos)
 else:

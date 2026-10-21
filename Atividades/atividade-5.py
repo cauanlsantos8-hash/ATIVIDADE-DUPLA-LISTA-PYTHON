@@ -12,7 +12,7 @@ media = soma/len(notas)
 
 quantidade_acima = sum(1 for nota in notas if nota > media)
 
-print('\n-- NOTAS INFORMADAS --')
+print('\n-- Notas Informadas --')
 for i, nota in enumerate(notas, start=1):
     print(f'Nota {i}: {nota}')
 

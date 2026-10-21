@@ -12,11 +12,11 @@ media = soma / len(temperaturas)
 maior = max(temperaturas)
 menor = min(temperaturas)
 
-print("\n= TEMPERATURAS REGISTRADAS =")
+print("\n-- Temperaturas Registradas --")
 for i, temperatura in enumerate(temperaturas, start=1):
     print(f"Dia {i}: {temperatura} °C")
 
-print("\n= RESUMO DA SEMANA =")
+print("\n-- Resumo da Semana --")
 print(f"Média da semana: {media} °C")
 print(f"Maior temperatura: {maior} °C")
 print(f"Menor temperatura: {menor} °C")
